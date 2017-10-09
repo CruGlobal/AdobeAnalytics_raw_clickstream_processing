@@ -10,7 +10,6 @@ It uses [node-lambda](https://github.com/motdotla/node-lambda) under the hood to
 Clone this repository.
 
 ```
-cd /to/your/template/path
 npm install
 ```
 
