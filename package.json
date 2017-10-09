@@ -1,0 +1,25 @@
+{
+  "name": "AdobeAnalytics_raw_clickstream_processing",
+  "version": "0.0.1",
+  "description": "Unzip adobe analytics clickstream data.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:CruGlobal/AdobeAnalytics_raw_clickstream_processing.git"
+  },
+  "author": "Josh Starcher",
+  "license": "MIT",
+  "scripts": {
+    "setup": "./node_modules/.bin/node-lambda setup",
+    "test": "./node_modules/.bin/node-lambda run",
+    "package": "./node_modules/.bin/node-lambda package",
+    "deploy": "./node_modules/.bin/node-lambda deploy"
+  },
+  "dependencies": {
+    "unzipper": "^0.8.9",
+    "s3-stream-upload": "^2.0.2"
+  },
+  "devDependencies": {
+    "node-lambda": "^0.9.0"
+  }
+}
