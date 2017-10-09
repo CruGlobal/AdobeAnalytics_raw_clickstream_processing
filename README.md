@@ -1,4 +1,4 @@
-# node-lambda-template
+# AdobeAnalytics raw clickstream processing
 
 A node.js lambda script for extracting adobe analytics clickstreams for
 further processing.
