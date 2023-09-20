@@ -1,3 +1,6 @@
+# Archived Repository
+This respository is no longer under development and has been archived.
+
 # AdobeAnalytics raw clickstream processing
 
 A node.js lambda script for extracting adobe analytics clickstreams for
